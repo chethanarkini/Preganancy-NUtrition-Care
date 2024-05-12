@@ -1,0 +1,445 @@
+{
+    "intents": [
+      {
+        "tag": "diabetes_definition",
+        "patterns": ["What is diabetes?", "Define diabetes", "What does diabetes mean?"],
+        "responses": ["Diabetes mellitus (also called diabetes) is caused by a problem with insulin. Insulin moves glucose out of the blood and into the body's cells where it can be turned into energy. Diabetes that is present before pregnancy is called pregestational diabetes mellitus. When the body does not make enough insulin or does not respond to it, glucose cannot get into cells and instead stays in the blood. As a result, the level of glucose in the blood increases. Over time, high blood glucose levels can damage the body and cause serious health problems, such as heart disease, vision problems, and kidney disease."]
+      },
+      {
+        "tag": "pregestational_diabetes_effects_pregnancy",
+        "patterns": ["How can pregestational diabetes affect my pregnancy?", "Effects of pregestational diabetes on pregnancy"],
+        "responses": ["If your diabetes is not managed well, you are at increased risk of several of the complications associated with diabetes. The following problems can occur in women with diabetes:\n\n- Birth defects: Birth defects occur in 6 to 12 percent of women with pregestational diabetes. Defects of the heart, brain, spine, and skeleton can occur in the early weeks of pregnancy when these organs are developing.\n- High blood pressure: High blood pressure during pregnancy increases the risk of preeclampsia, a serious condition that can lead to seizures and kidney or liver problems in the mother. Preeclampsia also increases the risk of stillbirth.\n- Hydramnios: In this condition, there is an increased amount of amniotic fluid in the amniotic sac that surrounds the fetus. It can lead to preterm labor and delivery.\n- Macrosomia (very large fetus): The fetus receives too much glucose from the mother and can grow too large. A large fetus can make delivery more difficult. A large fetus also increases the risk of having a cesarean birth."]
+      },
+      {
+        "tag": "pregestational_diabetes_effects_baby",
+        "patterns": ["How can pregestational diabetes affect my baby?", "Effects of pregestational diabetes on baby"],
+        "responses": ["Babies born to women with pregestational diabetes may have problems with breathing, low glucose levels, and jaundice. Most babies do well after birth, although some may need to spend time in a neonatal intensive care unit (NICU). The good news is that with proper planning and control of your diabetes, you can decrease the risk of these problems."]
+      },
+      {
+        "tag": "pregnancy_with_diabetes",
+        "patterns": ["What should I do if I have diabetes and want to get pregnant?", "Getting pregnant with diabetes"],
+        "responses": ["Talk with an obstetrician–gynecologist (ob-gyn) or other health care professional. You can schedule a prepregnancy appointment to learn the steps to take before pregnancy that can decrease the risk of problems later. Your health care provider can help you get your blood glucose level under control before you become pregnant (if it is not already). Getting your glucose level under control may require changing your medications, diet, and exercise program. Controlling your glucose level is important because some of the birth defects caused by high glucose levels happen in the first 8 weeks of pregnancy—before you may know you are pregnant."]
+      },
+      {
+        "tag": "prepregnancy_appointment",
+        "patterns": ["What else happens in a prepregnancy appointment?", "Details of a prepregnancy appointment"],
+        "responses": ["Prepregnancy care also allows you to learn about and discuss treatment options for any medical problems you may have because of your diabetes, such as high blood pressure, heart disease, kidney disease, and eye problems. It's a great time to discuss how to lose weight if needed through a healthy diet and exercise. Additionally, discuss taking a prenatal vitamin containing at least 400 micrograms of folic acid to help prevent neural tube defects (NTDs)."]
+      },
+      {
+        "tag": "controlling_diabetes_pregnancy",
+        "patterns": ["How can I control my diabetes during pregnancy?", "Managing diabetes during pregnancy"],
+        "responses": ["You can control your glucose level with a combination of eating right, exercising, and taking medications as directed by your health care professional. You may need to see your ob-gyn more often. Your ob-gyn should schedule frequent prenatal visits to check your glucose level and do other tests."]
+      },
+      {
+        "tag": "blood_sugar_levels_pregnancy",
+        "patterns": ["What blood sugar levels are recommended during pregnancy?", "Recommended blood sugar levels in pregnancy"],
+        "responses": ["Many women with diabetes who have never been pregnant are surprised at how low the recommended blood sugar level is for pregnancy. Your ob-gyn will likely recommend that you check your blood glucose level several times a day to make sure it is in the normal range and meets the following goals:\n\n- Fasting level = below 95 mg/dL\n- 1 hour after eating = below 140\n- 2 hours after eating = below 120\nKeep a log that lists your glucose levels with the time of day and share your log with your ob-gyn at each prenatal visit."]
+      },
+      {
+        "tag": "tracking_blood_glucose",
+        "patterns": ["How else can my blood glucose level be tracked?", "Methods to track blood glucose level"],
+        "responses": ["A blood test called a hemoglobin A1C test may be used to track your progress. This test result gives an estimate of how well your blood glucose level has been controlled during the past 4 to 6 weeks. Your hemoglobin A1C should not be higher than 6 percent."]
+      },
+      {
+        "tag": "hypoglycemia_pregnancy",
+        "patterns": ["What should I know about low blood glucose levels (hypoglycemia)?", "Hypoglycemia during pregnancy"],
+        "responses": ["Even with careful monitoring, women with diabetes are more likely to have low blood glucose levels, known as hypoglycemia, when they are pregnant. Symptoms of hypoglycemia include dizziness, feeling shaky, sweating, and weakness. If you think you have symptoms of hypoglycemia, check your blood glucose level right away. If it is below 60 mg/dL, eat or drink something, such as a glass of milk, a few crackers, or special glucose tablets. Make sure your family members know what to give you as well."]
+      },
+      {
+        "tag": "hyperglycemia_pregnancy",
+        "patterns": ["What should I know about high blood glucose levels (hyperglycemia)?", "Hyperglycemia during pregnancy"],
+        "responses": ["Your blood glucose level can also get too high, which is called hyperglycemia. When your glucose level is too high, your body might make substances called ketones that can be harmful to your baby. Hyperglycemia can happen if you eat more food than usual, are sick, or are less active than normal. If you have hyperglycemia, talk with your ob-gyn about how to adjust your medications, physical activity, and meals to get your glucose level back on track."]
+      },
+      {
+        "tag": "diabetes_medication_pregnancy",
+        "patterns": ["Can I keep taking my diabetes medications during pregnancy?", "Diabetes medications during pregnancy"],
+        "responses": ["Not all diabetes medications are safe to take during pregnancy. Some, such as the oral diabetes drug metformin, are usually considered safe during pregnancy. Others, such as diabetes pills called sulfonylureas and insulin, have been used for many years to treat high blood glucose and are also considered safe during pregnancy. You should talk with your ob-gyn and an endocrinologist, a doctor who specializes in diabetes, about your diabetes medications before you become pregnant."]
+      },
+      {
+        "tag": "pregnancy_complications_diabetes",
+        "patterns": ["What complications can occur during pregnancy if I have diabetes?", "Complications of pregnancy with diabetes"],
+        "responses": ["Women with diabetes are at higher risk for complications during pregnancy and delivery. They are more likely to have high blood pressure, which increases the risk of preeclampsia. They are also more likely to have hydramnios (increased amniotic fluid) and to have a large fetus. A large fetus increases the risk of needing a cesarean delivery. It is important to have good control of your diabetes to decrease the risk of these problems."]
+      },
+      {
+        "tag": "planning_diabetes_pregnancy",
+        "patterns": ["How should I plan for pregnancy if I have diabetes?", "Planning pregnancy with diabetes"],
+        "responses": ["Before you become pregnant, talk with your ob-gyn or other health care professional. Your provider can help you get your blood glucose level under control before you become pregnant, if it is not already. Getting your glucose level under control may require changing your medications, diet, and exercise program. Controlling your glucose level is important because some of the birth defects caused by high glucose levels happen in the first 8 weeks of pregnancy—before you may know you are pregnant."]
+      },
+      {
+        "tag": "postpartum_diabetes",
+        "patterns": ["Will I still have diabetes after I give birth?", "Diabetes after giving birth"],
+        "responses": ["If you had diabetes before you became pregnant, you will still have diabetes after you give birth. However, the need for insulin often decreases after pregnancy. You will need to be tested for diabetes at your 6-week postpartum checkup and as part of your routine health care in the future."]
+      },
+      {
+        "tag": "breastfeeding_diabetes",
+        "patterns": ["Can I breastfeed my baby if I have diabetes?", "Breastfeeding with diabetes"],
+        "responses": ["Breastfeeding is good for both you and your baby. It can help you lose weight gained during pregnancy and lower your risk of getting type 2 diabetes later in life. It also lowers your baby's risk of becoming obese and getting type 2 diabetes later in life."]
+      },
+      {
+        "tag": "exercise_diabetes_pregnancy",
+        "patterns": ["Can I exercise if I have diabetes during pregnancy?", "Exercising with diabetes during pregnancy"],
+        "responses": ["Yes. Exercise is safe and healthy during pregnancy. Exercise helps your body use glucose for energy and helps control your glucose level. If you did not exercise before you became pregnant, start walking for 15 minutes each day and slowly increase to 30 minutes or more each day. Be sure to check your blood glucose level before and after exercising."]
+      },
+      {
+        "tag": "pregnancy_complications_diabetes",
+        "patterns": [
+          "What complications can occur during pregnancy if I have diabetes?",
+          "Complications of pregnancy with diabetes"
+        ],
+        "responses": [
+          "Women with diabetes are at higher risk for complications during pregnancy and delivery. They are more likely to have high blood pressure, which increases the risk of preeclampsia. They are also more likely to have hydramnios (increased amniotic fluid) and to have a large fetus. A large fetus increases the risk of needing a cesarean delivery. It is important to have good control of your diabetes to decrease the risk of these problems."
+        ]
+      },
+      {
+        "tag": "pregnancy_complications_gestational_diabetes",
+        "patterns": ["What complications can occur during pregnancy if I have gestational diabetes?", "Complications of pregnancy with gestational diabetes"],
+        "responses": ["Women with gestational diabetes (diabetes that starts during pregnancy) are at higher risk for certain complications. These include having a large baby, which can increase the risk of injury during delivery. Gestational diabetes also increases the risk of high blood pressure during pregnancy and preeclampsia (a more serious form of high blood pressure). Good control of blood sugar levels can help reduce the risk of these complications."]
+      },
+      {
+        "tag": "prepregnancy_appointment",
+        "patterns": ["What happens in a pre-pregnancy appointment?", "What is discussed during a pre-pregnancy appointment?"],
+        "responses": [
+          "Pre-pregnancy care is important for women with diabetes. During a pre-pregnancy appointment, you can learn about and discuss treatment options for any medical problems you may have because of your diabetes, such as high blood pressure, heart disease, kidney disease, and eye problems. You can also discuss how to lose weight if needed through a healthy diet and exercise, and talk about taking a prenatal vitamin containing at least 400 micrograms of folic acid to help prevent neural tube defects (NTDs)."
+        ]
+      },
+      {
+        "tag": "controlling_diabetes_during_pregnancy",
+        "patterns": ["How can I control my diabetes during pregnancy?", "Managing diabetes during pregnancy"],
+        "responses": [
+          "You can control your glucose level with a combination of eating right, exercising, and taking medications as directed by your health care professional. You may need to see your ob-gyn more often. Your ob-gyn should schedule frequent prenatal visits to check your glucose level and do other tests."
+        ]
+      },
+      {
+        "tag": "recommended_blood_sugar_levels_during_pregnancy",
+        "patterns": ["What blood sugar levels are recommended during pregnancy?", "Recommended blood sugar levels for pregnant women with diabetes"],
+        "responses": [
+          "Your ob-gyn will likely recommend that you check your blood glucose level several times a day to make sure it is in the normal range. Your glucose level should meet the following goals:\n- Fasting level = below 95 mg/dL\n- 1 hour after eating = below 140\n- 2 hours after eating = below 120\nKeep a log that lists your glucose levels with the time of day and share your log with your ob-gyn at each prenatal visit."
+        ]
+      },
+      {
+        "tag": "tracking_blood_glucose_levels",
+        "patterns": ["How else can my blood glucose level be tracked?", "Tracking blood glucose levels during pregnancy"],
+        "responses": [
+          "A blood test called a hemoglobin A1C test may be used to track your progress. This test result gives an estimate of how well your blood glucose level has been controlled during the past 4 to 6 weeks. Your hemoglobin A1C should not be higher than 6 percent."
+        ]
+      },
+      {
+        "tag": "low_blood_glucose_levels_hypoglycemia",
+        "patterns": ["What should I know about low blood glucose levels (hypoglycemia)?", "Hypoglycemia during pregnancy"],
+        "responses": [
+          "Even with careful monitoring, women with diabetes are more likely to have low blood glucose levels, known as hypoglycemia, when they are pregnant. Symptoms of hypoglycemia include dizziness, feeling shaky, sweating, and weakness. If you think you have symptoms of hypoglycemia, check your blood glucose level right away. If it is below 60 mg/dL, eat or drink something, such as a glass of milk, a few crackers, or special glucose tablets."
+        ]
+      },
+      {
+        "tag": "high_blood_glucose_levels_hyperglycemia",
+        "patterns": ["What should I know about high blood glucose levels (hyperglycemia)?", "Hyperglycemia during pregnancy"],
+        "responses": [
+          "Your blood glucose level can also get too high, which is called hyperglycemia. When your glucose level is too high, your body might make substances called ketones that can be harmful to your baby. Hyperglycemia can happen if you eat more food than usual, are sick, or are less active than normal. If you have hyperglycemia, talk with your health care professional. You may need to change your diet, exercise routine, or medications."
+        ]
+      },
+      {
+        "tag": "diet_during_pregnancy",
+        "patterns": ["How can my diet affect my pregnancy?", "Diet recommendations for pregnant women with diabetes"],
+        "responses": [
+          "Eating a well-balanced, healthy diet is a critical part of any pregnancy because your fetus depends on the food you eat for growth and nourishment. In women with diabetes, diet is even more important. Not eating properly can cause your glucose level to go too high or too low. The number of calories you should consume every day depends on your weight, how far along you are in your pregnancy, your age, and your level of activity. You may want to see a dietitian or diabetes educator to help with planning your meals. In most cases, your meal plan will include eating several small meals and snacks throughout the day and before bedtime."
+        ]
+      },
+      {
+        "tag": "exercise_during_pregnancy",
+        "patterns": ["How can exercise help during my pregnancy?", "Exercise recommendations for pregnant women with diabetes"],
+        "responses": [
+          "Exercise helps keep your glucose level in the normal range and has many other benefits, including preventing excessive weight gain during pregnancy, reducing leg cramps, and reducing backache. You should check with your health care professional before starting an exercise program. Some types of exercise are safer than others when you are pregnant. Your ob-gyn can help you find the best activities for you."
+        ]
+      },
+      {
+        "tag": "medications_during_pregnancy",
+        "patterns": ["What medications are safe to take during pregnancy if I have diabetes?"],
+        "responses": [
+          "Insulin is the most common type of medication used to control blood glucose level during pregnancy. Some oral medications may not be safe to take when you are pregnant. Before taking any medication, talk with your health care professional. Do not take any over-the-counter drugs, dietary supplements, or herbal medicines without first checking with your ob-gyn."
+        ]
+      },
+      {
+        "tag": "depression_treatment_during_pregnancy",
+        "patterns": [
+          "How is depression during pregnancy treated?",
+          "Treatment for depression during pregnancy"
+        ],
+        "responses": [
+          "Treatment of depression may include psychotherapy (talk therapy), medication called antidepressants, or a combination of both. Support from your partner, family members, and friends can also be helpful. Your loved ones may be able to see if your depression is getting worse before you notice it yourself. Many people also find that self-care (including sleep, healthful eating, and light exercise) and social support groups can be helpful in recovering from depression. Postpartum Support International offers online support group meetings and referrals to mental health professionals who offer care during and after pregnancy."
+        ]
+      },
+      {
+        "tag": "psychotherapy_definition",
+        "patterns": ["What is psychotherapy?", "Definition of psychotherapy"],
+        "responses": [
+          "In psychotherapy or 'talk therapy,' a therapist will work with you to identify any issues, develop ways to address issues, and control troubling symptoms. Therapy can help you function better, increase your well-being, and help you heal. There are different methods and formats of therapy. For example, some types of therapy help you change how you think and behave, while other types of therapy help you better understand underlying issues. You may have one-on-one therapy (with just you and the therapist) or group therapy where you meet with a therapist and other people with problems similar to yours. Another option is family or couples therapy, in which you and family members or your partner may work with a therapist."
+        ]
+      },
+      {
+        "tag": "antidepressants_definition",
+        "patterns": ["What are antidepressants?", "Definition of antidepressants"],
+        "responses": [
+          "Antidepressants are medications that work to balance the chemicals in the brain that affect your moods. There are many types of antidepressants. If one type does not work for you, your ob-gyn can prescribe another. It often takes at least 3 to 4 weeks of taking the medication before you start to feel better."
+        ]
+      },
+      {
+        "tag": "antidepressants_during_pregnancy",
+        "patterns": [
+          "What should I know about taking an antidepressant during pregnancy?",
+          "Antidepressants during pregnancy"
+        ],
+        "responses": [
+          "Untreated depression can be harmful to you, your fetus, and your baby after birth. The risks of untreated depression need to be weighed against the risks of the medication. Studies suggest that most selective serotonin reuptake inhibitors (SSRIs) do not increase the risk of birth defects. But researchers are still learning whether other antidepressants can cause certain birth defects. You and your ob-gyn can discuss which medication is best for you and your fetus."
+        ]
+      },
+      {
+        "tag": "other_mental_health_conditions_during_pregnancy",
+        "patterns": [
+          "What other mental health conditions are common during pregnancy?",
+          "Common mental health conditions during pregnancy"
+        ],
+        "responses": [
+          "Anxiety is common during pregnancy. Pregnancy also can trigger obsessive-compulsive disorder (OCD). Anxiety and OCD can occur alone or with other mental health conditions, including depression. If you have anxiety and stress, tell your ob-gyn. Also tell them about any stressful life events. These may include losing a loved one, having a loved one who is ill, living far from your friends and family, or moving. Not having support and resources for your pregnancy can also be a major source of stress. Talk with your ob-gyn so you can get the help you need."
+        ]
+      },
+      {
+        "tag": "resources_mental_health_pregnancy",
+        "patterns": [
+          "What resources are available for mental health support during pregnancy?",
+          "Mental health resources for pregnant women"
+        ],
+        "responses": [
+          "Resources:\n\n988 Suicide & Crisis Lifeline\n\n988\n\n[988 Suicide & Crisis Lifeline](https://988lifeline.org)\n\n[Lifeline Chat](https://988lifeline.org/chat)\n\nFree help from trained counselors by phone or live online chat. Available 24 hours a day, 7 days a week. If you or someone you love has thoughts of suicide, call or chat for help.\n\nPostpartum Support International (PSI) Helpline\n\n800-944-4773\n\nText 800-944-4773 (English) or 971-203-7773 (Spanish)\n\n[www.postpartum.net](https://www.postpartum.net)\n\nContact this nonemergency helpline for support, information, or referrals to mental health professionals during or after pregnancy. The helpline is open 7 days per week. Leave a confidential message at any time, and a volunteer will return your call or text as soon as possible.\n\nPSI also offers online support group meetings to help you connect with other families. You can also join PSI’s weekly Chat with an Expert.\n\nNational Maternal Mental Health Hotline\n\n1-833-TLC-MAMA (1-833-852-6262)\n\n[www.mchb.hrsa.gov/national-maternal-mental-health-hotline](https://mchb.hrsa.gov/national-maternal-mental-health-hotline)\n\nFree, confidential hotline for pregnant and new moms in English and Spanish. Available 24 hours a day, 7 days a week.\n\nNational Alliance on Mental Illness HelpLine\n\n1-800-950-NAMI (6264)\n\n[www.nami.org/help](https://nami.org/help)\n\nFree, nationwide support service for anyone with questions or concerns about mental health.\n\nSubstance Abuse and Mental Health Services Administration (SAMHSA) Helpline\n\n800-662-HELP (4357)\n\n800-487-4889 (TTY)\n\n[www.samhsa.gov/find-help/national-helpline](https://www.samhsa.gov/find-help/national-helpline)\n\nFree, confidential help in English and Spanish. Available 24 hours a day, 7 days a week."
+        ]
+      },
+      {
+        "tag": "glossary",
+        "patterns": ["Glossary", "Pregnancy glossary"],
+        "responses": [
+          "Glossary:\n\nAntidepressants: Drugs that are used to treat depression.\n\nBirth Defects: Physical problems that are present at birth.\n\nComplications: Diseases or conditions that happen as a result of another disease or condition. An example is pneumonia that occurs as a result of the flu. A complication also can occur as a result of a condition, such as pregnancy. An example of a pregnancy complication is preterm labor.\n\nDepression: Feelings of sadness for periods of at least 2 weeks.\n\nFetus: The stage of human development beyond 8 completed weeks after fertilization.\n\nObstetrician–Gynecologist (Ob-Gyn): A doctor with special training and education in women’s health.\n\nPostpartum Depression: A type of depressive mood disorder that develops in the first year after the birth of a child. This type of depression can affect a woman’s ability to take care of her child.\n\nPrenatal Care: A program of care for a pregnant woman before the birth of her baby.\n\nPreterm: Less than 37 weeks of pregnancy.\n\nPsychotherapy: Working with a therapist to identify problems and find ways to change behavior.\n\nSelective Serotonin Reuptake Inhibitors (SSRIs): A type of medication used to treat depression.\n\nUterus: A muscular organ in the female pelvis. During pregnancy, this organ holds and nourishes the fetus. Also called the womb."
+        ]
+      },
+      {
+        "tag": "morning_sickness_definition",
+        "patterns": [
+          "What is morning sickness?",
+          "Definition of morning sickness"
+        ],
+        "responses": [
+          "Morning sickness is nausea and vomiting that occurs during pregnancy, usually during the first trimester. It is a common pregnancy symptom and is believed to be caused by hormonal changes in the body. Despite its name, morning sickness can occur at any time of day."
+        ]
+      },
+      {
+        "tag": "managing_morning_sickness",
+        "patterns": [
+          "How can I manage morning sickness?",
+          "Managing morning sickness"
+        ],
+        "responses": [
+          "To manage morning sickness, you can try:\n\nEating small, frequent meals throughout the day\nAvoiding foods and smells that trigger nausea\nDrinking plenty of fluids, especially water and ginger tea\nGetting plenty of rest\nTrying natural remedies such as ginger or acupressure wristbands\nIn severe cases, your healthcare provider may prescribe medication to help relieve nausea and vomiting."
+        ]
+      },
+      {
+        "tag": "first_trimester_definition",
+        "patterns": [
+          "What is the first trimester?",
+          "Definition of the first trimester"
+        ],
+        "responses": [
+          "The first trimester of pregnancy is the first 12 weeks after conception. During this time, your baby's major organs and body systems develop, and you may experience common pregnancy symptoms such as morning sickness, fatigue, and breast tenderness."
+        ]
+      },
+      {
+        "tag": "second_trimester_definition",
+        "patterns": [
+          "What is the second trimester?",
+          "Definition of the second trimester"
+        ],
+        "responses": [
+          "The second trimester of pregnancy is weeks 13 to 26. During this time, you may start to feel better as common pregnancy symptoms such as morning sickness and fatigue ease up. Your baby's organs continue to develop, and you may start to feel your baby's movements for the first time."
+        ]
+      },
+      {
+        "tag": "third_trimester_definition",
+        "patterns": [
+          "What is the third trimester?",
+          "Definition of the third trimester"
+        ],
+        "responses": [
+          "The third trimester of pregnancy is weeks 27 to 40. During this time, your baby continues to grow and develop, and you may experience new symptoms such as heartburn, back pain, and difficulty sleeping. You will also have more frequent prenatal appointments to monitor your baby's growth and prepare for labor and delivery."
+        ]
+      },
+      {
+        "tag": "trimester_definition",
+        "patterns": [
+          "What is a trimester?",
+          "Definition of a trimester"
+        ],
+        "responses": [
+          "A trimester is a period of three months. In pregnancy, it is used to divide the nine months of pregnancy into three equal parts, each lasting approximately 13 weeks."
+        ]
+      },
+      {
+        "tag": "prenatal_vitamin_definition",
+        "patterns": [
+          "What is a prenatal vitamin?",
+          "Definition of prenatal vitamin"
+        ],
+        "responses": [
+          "A prenatal vitamin is a multivitamin specially formulated for pregnant women. It contains higher doses of certain vitamins and minerals that are important for a healthy pregnancy, such as folic acid, iron, and calcium."
+        ]
+      },
+      {
+        "tag": "folic_acid_importance_during_pregnancy",
+        "patterns": [
+          "Why is folic acid important during pregnancy?",
+          "Importance of folic acid during pregnancy"
+        ],
+        "responses": [
+          "Folic acid is important during pregnancy because it helps prevent neural tube defects, which are serious birth defects of the brain and spinal cord. Taking a prenatal vitamin containing at least 400 micrograms of folic acid every day before and during pregnancy can help reduce the risk of neural tube defects."
+        ]
+      },
+      {
+        "tag": "foods_to_avoid_during_pregnancy",
+        "patterns": [
+          "What foods should I avoid during pregnancy?",
+          "Foods to avoid during pregnancy"
+        ],
+        "responses": [
+          "During pregnancy, you should avoid:\n\nRaw or undercooked fish, meat, and eggs\nUnpasteurized dairy products\nDeli meats and hot dogs unless they are heated until steaming hot\nCertain types of fish that are high in mercury, such as shark, swordfish, king mackerel, and tilefish\nAlcohol\nCaffeine in large amounts\nArtificial sweeteners\nIt is also important to wash fruits and vegetables thoroughly and practice good food safety habits to reduce the risk of foodborne illness."
+        ]
+      },
+      {
+        "tag": "exercise_during_pregnancy_safety",
+        "patterns": [
+          "Is it safe to exercise during pregnancy?",
+          "Exercising during pregnancy"
+        ],
+        "responses": [
+          "Yes, it is generally safe to exercise during pregnancy. In fact, regular exercise can help reduce the risk of complications such as gestational diabetes, preeclampsia, and cesarean delivery. It can also help you feel better and prepare your body for labor and delivery. However, you should talk to your healthcare provider before starting any exercise program during pregnancy, especially if you were not active before getting pregnant or if you have any medical conditions."
+        ]
+      },
+      {
+        "tag": "important_nutrients_during_pregnancy",
+        "patterns": [
+          "What are some important nutrients during pregnancy?",
+          "Important nutrients during pregnancy"
+        ],
+        "responses": [
+          "During pregnancy, it's important to get a variety of nutrients, including:\n\nFolic acid: Helps prevent neural tube defects\nIron: Needed for making hemoglobin, the protein in red blood cells that carries oxygen to your tissues and your baby's\nCalcium: Important for building your baby's bones and teeth\nProtein: Essential for the growth and development of your baby\nOmega-3 fatty acids: Important for your baby's brain and eye development\nVitamin D: Helps your body absorb calcium and supports your baby's bone development\nIodine: Important for your baby's brain development\nIt's best to get these nutrients from a balanced diet, but your healthcare provider may also recommend prenatal vitamins to help fill any gaps."
+        ]
+      },
+      {
+        "tag": "weight_gain_during_pregnancy",
+        "patterns": [
+          "How much weight should I gain during pregnancy?",
+          "Weight gain during pregnancy"
+        ],
+        "responses": [
+          "The amount of weight you should gain during pregnancy depends on your pre-pregnancy weight. In general, if you're at a healthy weight before pregnancy, you should aim to gain between 25 and 35 pounds. If you're underweight, you may need to gain a little more, and if you're overweight, you may need to gain a little less. Your healthcare provider can give you personalized guidance based on your individual circumstances."
+        ]
+      },
+      {
+        "tag": "foods_to_eat_more_during_pregnancy",
+        "patterns": [
+          "Are there any foods I should eat more of during pregnancy?",
+          "Foods to eat more during pregnancy"
+        ],
+        "responses": [
+          "During pregnancy, it's important to eat a balanced diet that includes plenty of:\n\nFruits and vegetables\nWhole grains\nLean protein sources such as poultry, fish, beans, and nuts\nLow-fat dairy products\nHealthy fats such as avocados, nuts, and olive oil\nIt's also important to drink plenty of fluids, especially water."
+        ]
+      },
+      {
+        "tag": "foods_to_eat_less_during_pregnancy",
+        "patterns": [
+          "Are there any foods I should eat less of during pregnancy?",
+          "Foods to eat less during pregnancy"
+        ],
+        "responses": [
+          "During pregnancy, it's best to limit your intake of:\n\nFoods high in sugar and fat, such as sweets, baked goods, and fried foods\nProcessed foods\nCaffeine\nAlcohol\nHigh-mercury fish such as shark, swordfish, king mackerel, and tilefish\nIt's also important to avoid unpasteurized dairy products and undercooked or raw meat, fish, and eggs to reduce the risk of foodborne illness."
+        ]
+      },
+      {
+        "tag": "caffeine_consumption_during_pregnancy",
+        "patterns": [
+          "Can I drink coffee during pregnancy?",
+          "Caffeine consumption during pregnancy"
+        ],
+        "responses": [
+          "Moderate caffeine consumption is generally considered safe during pregnancy. Most experts recommend limiting caffeine intake to no more than 200 milligrams per day, which is about the amount in one 12-ounce cup of coffee. However, it's a good idea to talk to your healthcare provider about caffeine consumption during pregnancy, as individual recommendations may vary based on your medical history and other factors."
+        ]
+      },
+      {
+        "tag": "getting_enough_iron_during_pregnancy",
+        "patterns": [
+          "How can I get enough iron during pregnancy?",
+          "Getting enough iron during pregnancy"
+        ],
+        "responses": [
+          "To get enough iron during pregnancy, you can:\n\nEat iron-rich foods such as lean red meat, poultry, fish, beans, lentils, tofu, and fortified cereals\nPair iron-rich foods with foods high in vitamin C, such as citrus fruits, strawberries, bell peppers, and tomatoes, to enhance iron absorption\nTake a prenatal vitamin containing iron as recommended by your healthcare provider\nIt's also a good idea to avoid drinking tea or coffee with meals, as the tannins in these beverages can inhibit iron absorption."
+        ]
+      },
+      {
+        "tag": "fish_oil_supplements_during_pregnancy",
+        "patterns": [
+          "Should I take fish oil supplements during pregnancy?",
+          "Fish oil supplements during pregnancy"
+        ],
+        "responses": [
+          "Fish oil supplements can be a good source of omega-3 fatty acids, which are important for your baby's brain and eye development. However, it's best to get nutrients from whole foods whenever possible. If you don't eat fish, or if you're concerned about mercury contamination, you may consider taking a fish oil supplement that has been tested for purity and does not contain mercury. As always, talk to your healthcare provider before starting any new supplement during pregnancy."
+        ]
+      },
+      {
+        "tag": "importance_of_folic_acid_during_pregnancy",
+        "patterns": [
+          "Why is folic acid important during pregnancy?",
+          "Importance of folic acid during pregnancy"
+        ],
+        "responses": [
+          "Folic acid is important during pregnancy because it helps prevent neural tube defects, which are serious birth defects of the brain and spinal cord. Taking a prenatal vitamin containing at least 400 micrograms of folic acid every day before and during pregnancy can help reduce the risk of neural tube defects."
+        ]
+      },
+      {
+        "tag": "important_nutrients_during_pregnancy",
+        "patterns": [
+          "What are some important nutrients during pregnancy?",
+          "Important nutrients during pregnancy"
+        ],
+        "responses": [
+          "During pregnancy, it's important to get a variety of nutrients, including:\n\nFolic acid: Helps prevent neural tube defects\nIron: Needed for making hemoglobin, the protein in red blood cells that carries oxygen to your tissues and your baby's\nCalcium: Important for building your baby's bones and teeth\nProtein: Essential for the growth and development of your baby\nOmega-3 fatty acids: Important for your baby's brain and eye development\nVitamin D: Helps your body absorb calcium and supports your baby's bone development\nIodine: Important for your baby's brain development\nIt's best to get these nutrients from a balanced diet, but your healthcare provider may also recommend prenatal vitamins to help fill any gaps."
+        ]
+      },
+      {
+        "tag": "foods_to_avoid_during_pregnancy",
+        "patterns": [
+          "What foods should I avoid during pregnancy?",
+          "Foods to avoid during pregnancy"
+        ],
+        "responses": [
+          "During pregnancy, you should avoid:\n\nRaw or undercooked fish, meat, and eggs\nUnpasteurized dairy products\nDeli meats and hot dogs unless they are heated until steaming hot\nCertain types of fish that are high in mercury, such as shark, swordfish, king mackerel, and tilefish\nAlcohol\nCaffeine in large amounts\nArtificial sweeteners\nIt is also important to wash fruits and vegetables thoroughly and practice good food safety habits to reduce the risk of foodborne illness."
+        ]
+      },
+      {
+        "tag": "safe_exercise_during_pregnancy",
+        "patterns": [
+          "Is it safe to exercise during pregnancy?",
+          "Safe exercise during pregnancy"
+        ],
+        "responses": [
+          "Yes, it is generally safe to exercise during pregnancy. In fact, regular exercise can help reduce the risk of complications such as gestational diabetes, preeclampsia, and cesarean delivery. It can also help you feel better and prepare your body for labor and delivery. However, you should talk to your healthcare provider before starting any exercise program during pregnancy, especially if you were not active before getting pregnant or if you have any medical conditions."
+        ]
+      },
+      {
+        "tag": "weight_gain_during_pregnancy",
+        "patterns": [
+          "How much weight should I gain during pregnancy?",
+          "Weight gain during pregnancy"
+        ],
+        "responses": [
+          "The amount of weight you should gain during pregnancy depends on your pre-pregnancy weight. In general, if you're at a healthy weight before pregnancy, you should aim to gain between 25 and 35 pounds. If you're underweight, you may need to gain a little more, and if you're overweight, you may need to gain a little less. Your healthcare provider can give you personalized guidance based on your individual circumstances."
+        ]
+      } 
+           
+    ]
+  }
+  

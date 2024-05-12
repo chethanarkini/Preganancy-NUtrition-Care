@@ -1,0 +1,144 @@
+/* CSS styles for the Fat Nutrition for Pregnant Women page */
+
+/* Reset styles */
+body, h1, h2, h3, p, ul, li {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f8f8f8;
+    color: #333;
+}
+
+header {
+    background-color: #ffcccc;
+    padding: 20px 0;
+    text-align: center;
+}
+
+header h1 {
+    font-size: 36px;
+    margin-bottom: 10px;
+    color: #333;
+}
+
+header p {
+    font-size: 18px;
+    color: #666;
+}
+
+nav {
+    background-color: #ff9999;
+    padding: 10px 0;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #333;
+    font-size: 20px;
+    transition: color 0.3s ease;
+}
+
+nav ul li a:hover {
+    color: #ff6666;
+}
+
+section {
+    background-color: #fff;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+    opacity: 0;
+    animation: fadeIn 1s ease forwards;
+}
+
+section h2 {
+    color: #ff6666;
+    margin-bottom: 10px;
+}
+
+section p, section ul {
+    font-size: 16px;
+    color: #333;
+}
+
+footer {
+    background-color: #ffcccc;
+    color: #333;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+
+footer p {
+    font-size: 14px;
+    color: #666;
+}
+
+/* Styled boxes */
+.saturated-fats, .unsaturated-fats {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.saturated-fats h3, .unsaturated-fats h3 {
+    margin-bottom: 10px;
+}
+
+.saturated-fats ul, .unsaturated-fats ul {
+    list-style-type: none;
+}
+
+.saturated-fats ul li, .unsaturated-fats ul li {
+    background-color: #ffcccc;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+}
+
+.saturated-fats ul li:hover, .unsaturated-fats ul li:hover {
+    transform: translateY(-5px);
+}
+
+.saturated-fats ul li:before, .unsaturated-fats ul li:before {
+    content: "\2022";
+    color: #ff6666;
+    font-weight: bold;
+    display: inline-block;
+    width: 1em;
+    margin-left: -1em;
+}
+
+.saturated-fats ul li:last-child, .unsaturated-fats ul li:last-child {
+    margin-bottom: 0;
+}
+
+/* Animation */
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}

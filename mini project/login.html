@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="styles_m.css">
+
+</head>
+
+<body>
+    <div class="heading"><center>
+        <img src="logo3.png" alt="Logo" style="display: inline-block;"></center>
+    </div>
+    <div class="background">
+        <div class="full">
+        <center><h1>Login</h1></center>
+        <div class="login-container">
+            <form id="loginForm" action="login_process.php" method="post">
+                <label for="email">Email:</label><br>
+                <input type="email" id="email" name="email" required><br>
+                <label for="password">Password:</label><br>
+                <input type="password" id="password" name="password" required><br>
+                <button type="submit">Login</button>
+            </form>
+            <div id="error-message"></div>
+        </div>
+        
+        <a class="signup-link" href="signup.php">Don't have an account? Sign up</a>
+        </div>
+        <div class="about-us">
+        <center><h1>About us</h1></center>
+        <p>Welcome to PregaNutriCare! We're dedicated to providing personalized nutrition guidance for expecting mothers, considering individual health needs and offering support through our chatbot feature.</p><br><br>
+        <center><h1>Contact us</h1></center>
+        <p></p>
+        <div class="contact-box">
+            <form action="#" class="newsletter-form">
+                <input type="email" class="form-input"
+                    placeholder="Enter your Email Here" required>
+                <button type="submit" class="sec-btn primary-btn">Submit</button>
+            </form>
+        </div>
+        
+        
+    
+        
+        
+    </div>
+    </div>
+    <script>
+        function sendQuery() {
+            var name = document.getElementById("name").value;
+            var email = document.getElementById("email").value;
+            var query = document.getElementById("query").value;
+    
+            var mailtoLink = "mailto:hegdemanya04@gmail.com?body=Name: " + encodeURIComponent(name) + "%0AEmail: " + encodeURIComponent(email) + "%0AQuery: " + encodeURIComponent(query);
+    
+            window.location.href = mailtoLink;
+        }
+
+    </script>
+</body>
+</html>

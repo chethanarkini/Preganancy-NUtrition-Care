@@ -1,0 +1,464 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Patient Details Form</title>
+    <link rel="stylesheet" href="bump_path.css">
+</head>
+<body>
+<style>
+.hidden {
+    display: none; /* This hides the elements */
+}</style>
+<div class="container">
+    <h2>Details</h2>
+    <form>
+        <div class="flex-container">
+            <div class="flex-item">
+                <label for="blood_group">Blood Group:</label>
+                <select id="blood_group" name="blood_group" required>
+                    <option value="">Select Blood Group</option>
+                    <option value="A+">A+</option>
+                    <option value="A-">A-</option>
+                    <option value="B+">B+</option>
+                    <option value="B-">B-</option>
+                    <option value="O+">O+</option>
+                    <option value="O-">O-</option>
+                    <option value="AB+">AB+</option>
+                    <option value="AB-">AB-</option>
+                </select>
+            </div>
+            <div class="flex-item">
+                <label for="height">Height:</label>
+                <input type="text" id="height" name="height" placeholder="inches" required>
+            </div>
+            <div class="flex-item">
+                <label for="weight">Weight:</label>
+                <input type="text" id="weight" name="weight" placeholder="kg" required>
+            </div>           
+        </div>
+        <br>
+        <label for="date_of_conceiving">Date of Conceiving:</label>
+        <input type="date" id="date_of_conceiving" name="date_of_conceiving" required><br>
+        <label for="disease">Medical Conditions:</label>
+        <select id="disease" name="disease">
+            <option value="None">None</option>
+            <option value="Diabetes">Gestational diabetes</option>
+            <option value="HBP">Preeclampsia</option>
+            <option value="Gravidarum">Hyperemesis Gravidarum</option>          
+        </select><br>
+        <input type="submit" value="Submit">
+    </form>
+</div>
+<div id="medicalConditionText">
+    <div id="nonetext" class="hidden" style="border: 1px solid #000; padding: 40px; background-color: #FDE5EC">
+        <h1 style="text-align: center;">Dietary and Caloric Recommendations</h1>
+        <p>To maintain a healthy pregnancy, approximately 300 extra calories are needed each day. These calories should come from a balanced diet of protein, fruits, vegetables, and whole grains. Sweets and fats should be kept to a minimum. A healthy, well-balanced diet can also help to reduce some pregnancy symptoms, such as nausea and constipation.</p>
+        <h3>Fluid Intake During Pregnancy</h3>
+        <p>Fluid intake is also an important part of pregnancy nutrition. Follow these recommendations for fluid intake during pregnancy:</p>
+        <ul>
+          <li>You can take in enough fluids by drinking several glasses of water each day, in addition to the fluids in juices and soups. Talk to your health care provider or midwife about restricting your intake of caffeine and artificial sweeteners.</li>
+          <li>Avoid all forms of alcohol.</li>
+        </ul>
+        <h3>Ideal Foods to Eat During Pregnancy</h3>
+        <p>The following foods are beneficial to your health and fetal development during pregnancy:</p>
+        <ul>
+          <li>Vegetables: carrots, sweet potatoes, pumpkin, spinach, cooked greens, tomatoes, and red sweet peppers (for vitamin A and potassium)</li>
+          <li>Fruits: cantaloupe, honeydew, mangoes, prunes, bananas, apricots, oranges, and red or pink grapefruit (for potassium)</li>
+          <li>Dairy: fat-free or low-fat yogurt, skim or 1% milk, soymilk (for calcium, potassium, vitamins A and D)</li>
+          <li>Grains: ready-to-eat cereals/cooked cereals (for iron and folic acid)</li>
+          <li>Proteins: beans and peas; nuts and seeds; lean beef, lamb, and pork; salmon, trout, herring, sardines, and pollock</li>
+        </ul>
+        <h3>Foods to Avoid During Pregnancy</h3>
+        <p>Avoid eating the following foods during pregnancy:</p>
+        <ul>
+          <li>Unpasteurized milk and foods made with unpasteurized milk (soft cheeses, including feta, queso blanco and fresco, Camembert, brie or blue-veined cheeses—unless labeled “made with pasteurized milk")</li>
+          <li>Hot dogs and luncheon meats (unless they are heated until steaming hot before serving)</li>
+            <li>Raw and undercooked seafood, eggs, and meat. Do not eat sushi made with raw fish (cooked sushi is safe).</li>
+            <li>Refrigerated pâté and meat spreads</li>
+            <li>Refrigerated smoked seafood</li>
+          </ul>
+          <center><img src="pregnancy_infographic.jpg" alt="Eating safely during pregnancy infographic" style="height: 700px;width: auto; "></center>
+          <h2>Guidelines for Safe Food Handling</h2>
+          <p>Follow these general food safety guidelines when handling and cooking food:</p>
+          <ul>
+            <li>Wash. Rinse all raw produce thoroughly under running tap water before eating, cutting or cooking.</li>
+            <li>Clean. Wash your hands, knives, countertops, and cutting boards after handling and preparing uncooked foods.</li>
+            <li>Cook. Cook beef, pork, or poultry to a safe internal temperature verified by a food thermometer.</li>
+            <li>Chill. Promptly refrigerate all perishable food.</li>
+          </ul>
+          
+          <h2 >Prenatal Vitamin and Mineral Supplements</h2>
+          <p>Most health care providers or midwives will prescribe a prenatal supplement before conception or shortly afterward to make sure that all of your nutritional needs are met. However, a prenatal supplement does not replace a healthy diet.</p>
+          
+          <h3>The Importance of Folic Acid</h3>
+          <p>The U.S. Public Health Service recommends that all women of childbearing age consume 400 micrograms (0.4 mg) of folic acid each day. Folic acid is a nutrient found in:</p>
+          <ul>
+            <li>Some green leafy vegetables</li>
+            <li>Most berries, nuts, beans, citrus fruits, and fortified breakfast cereals</li>
+            <li>Some vitamin supplements.</li>
+          </ul>
+          <p>Folic acid can help reduce the risk of neural tube defects, which are birth defects of the brain and spinal cord. Neural tube defects can lead to varying degrees of paralysis, incontinence, and sometimes intellectual disability.</p>
+          <p>Folic acid is the most helpful during the first 28 days after conception, when most neural tube defects occur. Unfortunately, you may not realize that you are pregnant before 28 days. Therefore, your intake of folic acid should begin before conception and continue throughout your pregnancy. Your health care provider or midwife will recommend the appropriate amount of folic acid to meet your individual needs.</p>
+          <p>For example, women who take anti-epileptic drugs may need to take higher doses of folic acid to prevent neural tube defects. They should consult with their health care provider when considering trying to conceive.</p>
+
+    </div>
+    <div id="diabetesText" class="hidden" style="border: 1px solid #000; padding: 40px; background-color: #FDE5EC">
+        <h1 style="text-align: center;">Gestational diabetes diet</h1>
+        <p>Gestational diabetes is high blood sugar (glucose) that starts during pregnancy. Eating a balanced, healthy diet can help you manage gestational diabetes. The diet recommendations that follow are for women with gestational diabetes who do NOT take insulin.</p>
+    <p>For a balanced diet, you need to eat a variety of healthy foods. Reading food labels can help you make healthy choices when you shop.
+<br><br>
+        If you are a vegetarian or on a special diet, talk with your health care provider to make sure you're getting a balanced diet.
+       <br> <br>
+        In general, you should eat:</p>
+        <ul>
+            <li>Plenty of whole fruits and vegetables</li>
+            <li>Moderate amounts of lean proteins and healthy fats</li>
+            <li>Moderate amounts of whole grains, such as bread, cereal, pasta, and rice, plus starchy vegetables, such as corn and peas</li>
+            <li>Fewer foods that have a lot of sugar, such as soft drinks, fruit juices, and pastries</li>
+          </ul>
+  <p>You should eat three small- to moderate-sized meals and one or more snacks each day. Do not skip meals and snacks. Keep the amount and types of food (carbohydrates, fats, and proteins) about the same from day to day. This can help you keep your blood sugar stable.</p>          
+   <h2>CARBOHYDRATES</h2>
+   <ul>
+    <li>Less than half the calories you eat should come from carbohydrates.</li>
+    <li>Most carbohydrates are found in starchy or sugary foods. They include bread, rice, pasta,cereal, potatoes, peas, corn, fruit, fruit juice, milk, yogurt, cookies, candy, soda, and other sweets.
+        <li>High-fiber, whole-grain carbohydrates are healthy choices. These types of carbohydrates are called complex carbohydrates.</li>
+        <li>Try to avoid eating simple carbohydrates, such as potatoes, french-fries, white rice, candy, soda, and other sweets. This is because they cause your blood sugar to rise quickly after you eat such foods.</li>
+        <li>Vegetables are good for your health and your blood sugar. Enjoy lots of them.</li>
+        <li>Carbohydrates in food are measured in grams. You can learn to count the amount of carbohydrates in the foods that you eat.</li>
+      </ul>
+<h2>GRAINS, BEANS, AND STARCHY VEGETABLES</h2>
+<p>Eat 6 or more servings a day. One serving equals:</p>
+<ul>
+    <li>1 slice bread</li>
+    <li>1 ounce (28 grams) ready-to-eat cereal</li>
+    <li>1/2 cup (105 grams) cooked rice or pasta</li>
+  </ul>
+  
+<p>Choose foods loaded with vitamins, minerals, fiber, and healthy carbohydrates. They include:</p>
+<ul>
+    <li>Whole-grain breads and crackers</li>
+    <li>Whole grain cereals</li>
+    <li>Whole grains, such as barley or oats</li>
+    <li>Beans</li>
+    <li>Brown or wild rice</li>
+    <li>Whole-wheat pasta</li>
+    <li>Starchy vegetables, such as corn and peas</li>
+  </ul>  
+<p>Use whole-wheat or other whole-grain flours in cooking and baking. Eat more low-fat breads, such as tortillas, English muffins, and pita bread.</p>
+<h2>VEGETABLES</h2>
+<p>Eat 3 to 5 servings a day. One serving equals:</p>
+<ul>
+    <li>1 cup (340 grams) leafy, green vegetables</li>
+    <li>1 cup (340 grams) cooked or chopped raw leafy vegetables</li>
+    <li>3/4 cup (255 grams) vegetable juice</li>
+    <li>1/2 cup (170 grams) of chopped vegetables, cooked or raw</li>
+  </ul>
+  
+<p>Healthy vegetable choices include:</p>
+<ul>
+    <li>Fresh or frozen vegetables without added sauces, fats, or salt</li>
+    <li>Dark green and deep yellow vegetables, such as spinach, broccoli, romaine lettuce, carrots, and peppers</li>
+  </ul>
+<h2>FRUITS</h2>
+<p>Eat 2 to 4 servings a day. One serving equals:</p>  
+<ul>
+    <li>1 medium whole fruit (such as a banana, apple, or orange)</li>
+    <li>1/2 cup (170 grams) chopped, frozen, cooked, or canned fruit</li>
+    <li>3/4 cup (180 milliliters) fruit juice</li>
+  </ul>  
+<p>Healthy fruit choices include:</p>
+<ul>
+    <li>Whole fruits rather than juices. They have more fiber.</li>
+    <li>Citrus fruits, such as oranges, grapefruits, and tangerines.</li>
+    <li>Fruit juices without added sugar.</li>
+    <li>Fresh fruits and juices. They are more nutritious than frozen or canned varieties.</li>
+  </ul>  
+ <h2>PROTEIN (MEAT, FISH, DRY BEANS, EGGS, AND NUTS)</h2> 
+<p>Eat 2 to 3 servings a day. One serving equals:</p>
+<ul>
+    <li>2 to 3 oz (55 to 84 grams) cooked meat, poultry, or fish</li>
+    <li>1/2 cup (170 grams) cooked beans</li>
+    <li>1 egg</li>
+    <li>2 tablespoons (30 grams) peanut butter</li>
+  </ul>
+  
+<p>Healthy protein choices include:</p>
+<ul>
+    <li>Fish and poultry. Remove the skin from chicken and turkey.</li>
+    <li>Lean cuts of beef, veal, pork, or wild game.</li>
+    <li>Trim all visible fat from meat. Bake, roast, broil, grill, or boil instead of frying. Foods from this group are excellent sources of B vitamins, protein, iron, and zinc.</li>
+  </ul>
+</div>
+    <div id="hbpText" class="hidden" style="border: 1px solid #000; padding: 40px; background-color: #FDE5EC">
+        <h1 style="text-align: center;">Diet to Reduce Preeclampsia</h1>
+    <p>Preeclampsia is a complication of pregnancy. With preeclampsia, you might have high blood pressure, high levels of protein in urine that indicate kidney damage (proteinuria), or other signs of organ damage. Preeclampsia usually begins after 20 weeks of pregnancy in women whose blood pressure had previously been in the standard range.</p>
+   <p style="color: crimson;"> Preeclampsia may develop after delivery of a baby, a condition known as postpartum preeclampsia.</p>
+   <p>There are foods that lower blood pressure simply by having them in abundance in your diet. Many contain electrolytes that help the kidneys get rid of fluids in your blood vessels. This naturally reduces the pressure inside them.</p>
+   <ul>
+    <li><strong>Fresh fruits:</strong> Most fruits are high in potassium and naturally lower blood pressure. The fruits with the highest potassium content include bananas, passionfruit, jackfruit, apricots, oranges, nectarine, cantaloupe, and grapefruit.</li>
+    <li><strong>Juices:</strong> Fruit juices are also great options for reducing blood pressure. Orange juice, prune juice, and most vegetable juices contain lots of potassium.</li>
+    <li><strong>Avocados:</strong> These have nearly the same blood-pressure-lowering properties as bananas and have healthy monounsaturated fats.</li>
+    <li><strong>Dried fruits:</strong> Because fruits are dried, you get concentrated doses of potassium to lower your blood pressure. Dried bananas and apricots have the highest potassium content; however, you can eat raisins, dried apples, prunes, papaya, and figs as well.</li>
+    <li><strong>Vegetables:</strong> Many vegetables are packed with as much potassium as fruits. Eat them fresh for the best benefit. Among veggies with potassium, spinach tops the list. Other great blood-pressure-lowering vegetables include beets, sweet potatoes, russet potatoes (peels included), carrots, acorn squash, and broccoli.</li>
+    <li><strong>Beans and lentils:</strong> These are great for soups or mashed into a dip for crackers or tortillas.</li>
+    <li><strong>Coconut water:</strong> Instead of water, try cold and refreshing coconut water, which contains potassium to lower your blood pressure.</li>
+    <li><strong>Dairy products:</strong> These are not incredibly high in potassium but will still be good choices for snacking. Yogurt and plant-based milk (soy or almond milk) have been shown to reduce blood pressure in research studies.</li>
+    <li><strong>Meat and fish:</strong> Among these, chicken and salmon are the best options.</li>
+    <li><strong>Nuts:</strong> Both almonds and cashews are excellent to snack on. Mix them with dried fruit for added blood pressure-lowering effects.</li>
+</ul>
+<h2>Foods to avoid with Preeclampsia during pregnancy</h2>
+<ul>
+    <li><strong>Salty snack foods:</strong> Salty snack foods contain sodium, which causes fluid to build up in your arteries, raising your blood pressure. Some of these may not even taste salty. Avoid chips, French fries, popcorn, tacos, and burritos.</li>
+    <li><strong>Processed bread and sandwiches:</strong> Bread, pizza, and rolls are higher in sodium than you’d suspect by tasting them. Sandwiches with cured meats, bacon, and cold cuts have added salt by virtue of the processed meats. A peanut butter sandwich has the added sodium (salt) that comes from the peanuts.</li>
+    <li><strong>Soups:</strong> Canned soups and some you make at home are also higher in sodium than they taste. If you are making soup, you can adjust the salt content of the soup—something you can’t do with canned soups.</li>
+    <li><strong>Processed desserts:</strong> These do not necessarily raise your blood pressure, but they do cause unintended weight gain. A higher weight means you will be more likely to suffer from hypertension or high blood pressure during pregnancy.</li>
+    <li><strong>Packaged meals:</strong> These are easy to make but contain much more sodium than you’ll get in foods you make at home.</li>
+    <li><strong>Red meat:</strong> Red meats are metabolized in the body in ways that raise your blood pressure, even if you don’t salt your meat. Beef, lamb, veal, venison, and pork are to be avoided if you want to keep your blood pressure down.</li>
+    <li><strong>High-sugar drinks:</strong> These include sodas and energy drinks. Sugar promotes weight gain, and caffeine brings on high blood pressure by constricting your arteries.</li>
+    <li><strong>Saturated fats:</strong> Saturated fats cause weight gain and are known to raise your blood pressure. Foods to avoid include chocolate desserts, pastries, pies, cakes, donuts, and full-fat dairy products. Lard, butter, ghee, and margarine also have saturated fats. It’s worth noting that eating a keto diet isn’t generally considered safe during pregnancy.</li>
+    <li><strong>Condiments:</strong> We don’t often think of condiments as sodium-containing foods; however, ketchup, soy sauce, fish sauce, chili sauce, and salad dressings have a lot of added sodium.</li>
+    <li><strong>Caffeine:</strong> Caffeine will raise your blood pressure and should be avoided if your blood pressure is already elevated. Sodas, black tea, and coffee can be replaced with green tea to help you lower your blood pressure.</li>
+</ul>
+<h2>Other dieting tips for those with Preeclampsia during pregnancy</h2>
+<ul>
+    <li><strong>Eat several small meals daily:</strong> You can also have snacks in between to keep you feeling full. The goal here is to stay within the weight recommendations for your pregnancy.</li>
+    <li><strong>Pack snacks with you:</strong> Because most snacking outside of the home involves highly-salted fast food, you would do better to bring food from home to snack on. Plan healthy snacks at the beginning of the week so you have plenty of snacks for your work week.</li>
+    <li><strong>Salt your food sparingly:</strong> If you leave salt off the table or use half the salt you would normally use for cooking, you will adjust to the change in taste quickly. Lower salt will help reduce your blood pressure naturally.</li>
+    <li><strong>Use potassium-containing salt products:</strong> Potassium salts are milder in taste compared to sodium chloride (table salt). There are salts you can buy that have mostly potassium or a mix of sodium and potassium chloride for use in cooking or at the table.</li>
+    <li><strong>Spice it up:</strong> Generally, you will be less likely to require salt of any kind if you add extra spices. Spices are healthy additives to food and add flavor without adding extra table salt.</li>
+</ul>
+    </div>
+    <div id="gravidarumText" class="hidden" style="border: 1px solid #000; padding: 40px; background-color: #FDE5EC">
+        <h1 style="text-align: center;">Hyperemesis Diet</h1>
+        <p><strong>What is it?</strong></p>
+        <p>Every pregnant woman reacts to food in a different way during her pregnancy. A hyperemesis (hi-per-em-uh-sis) diet is a list of foods and ideas that may help your nausea and vomiting while pregnant. You should try many healthy foods to make sure you are eating correctly for you and your baby. You may need high protein and high-calorie foods if you are having trouble gaining weight because of nausea and vomiting. Try to eat foods from the meat, dairy, and fat lists below each day to get extra calories and protein. Talk to your dietitian (di-uh-tih-shun) to be sure you are getting enough calories and other vitamins and minerals. This diet is not a complete diet to meet all your food needs during pregnancy. But it will give you ideas to try when you are having nausea and vomiting. Ask your caregiver for the CareNote pregnancy diet. The pregnancy diet will tell you how many servings to eat every day from each food group.</p>
+        
+        <p><strong>Care:</strong> Try the following ideas to help you with nausea and vomiting during your pregnancy.</p>
+        <ul>
+          <li>Eat a small meal or snack every 2 hours rather than 3 large meals every day. By doing this you may prevent nausea because you will never be hungry.</li>
+          <li>Eat a small snack before going to sleep at night. This may prevent nausea in the morning when you wake up.</li>
+          <li>Chew and swallow your foods very slowly.</li>
+          <li>Try to eat cold and dry foods, like cereal, crackers, or toast.</li>
+          <li>Drink most of your liquids between meals. You may want, instead, to drink small amounts of liquids with your meals. Try to drink 8 (soda pop can size) glasses of liquids every day.</li>
+          <li>Pure (100%) fruit juice or lemonade may help your nausea.</li>
+          <li>Do not drink alcohol or drinks that contain caffeine, such as soda, coffee, or black tea.</li>
+          <li>If you are nauseated in the morning, eat 2 to 3 saltine crackers or a slice of dry toast before getting out of bed.</li>
+          <li>Avoid foods that have a strong smell. Or you may want to ask someone to cook your meals if smells bother you.</li>
+          <li>Do not eat high-fat foods, like fried foods, gravies, heavy sauces, or rich desserts.</li>
+          <li>Lie down after eating with your head raised on 1 or 2 pillows.</li>
+          <li>Spend time outside to get fresh air. You may feel better if you do not get too hot either inside or outside your house.</li>
+        </ul>
+        <p><strong>Serving Sizes:</strong></p>
+        <ul>
+          <li>1-1/2 cups (12 ounces) of liquid is the size of a soda-pop can.</li>
+          <li>1 cup (8 ounces) of food is the size of a large handful.</li>
+          <li>1/2 cup (4 ounces) of food is about half of a large handful.</li>
+          <li>2 tablespoons (Tbsp) is about the size of a large walnut.</li>
+          <li>1 tablespoon is about the size of the tip of your thumb (from the last crease).</li>
+          <li>1 teaspoon (tsp) is about the size of the tip of your little finger (from the last crease).</li>
+          <li>A serving means the size of food after it is cooked. Three ounces of cooked meat, fish, or poultry is about the size of a deck of cards.</li>
+        </ul>
+        
+        <h2>BREADS / STARCHES:</h2>
+        <p><strong>You may want to eat the following foods.</strong></p>
+        <ul>
+          <li>Bagel</li>
+          <li>Baked potato</li>
+          <li>Cold cereal without milk</li>
+          <li>Corn</li>
+          <li>Dry toast</li>
+          <li>Graham crackers</li>
+          <li>Hard dinner rolls</li>
+          <li>Melba toast</li>
+          <li>Mashed potatoes</li>
+          <li>Pasta</li>
+          <li>Peas</li>
+          <li>Pretzels (without salt)</li>
+          <li>Rice or rice cakes</li>
+          <li>Rye crackers</li>
+          <li>Saltine crackers</li>
+        </ul>
+        <p><strong>You may NOT want to eat the following foods.</strong></p>
+        <ul>
+          <li>Croissants</li>
+          <li>Donuts</li>
+          <li>French toast</li>
+          <li>Pancakes</li>
+        </ul>
+        <h2>MILK / DAIRY:</h2>
+        <p><strong>You may want to eat the following foods.</strong></p>
+        <ul>
+          <li>Lowfat custard</li>
+          <li>Lowfat fruit yogurt</li>
+          <li>Lowfat pudding</li>
+          <li>Skim milk, in small amounts</li>
+        </ul>
+        <p><strong>You may NOT want to eat the following foods.</strong></p>
+        <ul>
+          <li>2% or whole milk</li>
+          <li>Eggnog</li>
+          <li>Milkshakes and malts</li>
+        </ul>
+        
+        <h2>MEAT / MEAT SUBSTITUTES / MAIN DISHES:</h2>
+        <p><strong>You may want to eat the following foods.</strong></p>
+        <ul>
+          <li>Baked chicken or turkey breast</li>
+          <li>Broiled or baked lean beef or ham</li>
+          <li>Cottage or ricotta cheese</li>
+          <li>Plain cheeses</li>
+          <li>Salted nuts</li>
+        </ul>
+        <p><strong>You may NOT want to eat the following foods.</strong></p>
+        <ul>
+          <li>Blue, Swiss, Brie, or other strong cheeses</li>
+          <li>Boiled and scrambled eggs</li>
+          <li>Cooked dried beans and legumes</li>
+          <li>Cream soups</li>
+          <li>Fish and seafood</li>
+          <li>Fried meats</li>
+          <li>Gravies</li>
+          <li>Peanut butter</li>
+          <li>Sauces</li>
+          <li>Spicy or highly spiced foods</li>
+        </ul>
+        
+        <h2>VEGETABLES:</h2>
+        <p><strong>You may want to eat the following foods.</strong></p>
+        <ul>
+          <li>Fresh vegetables, such as carrots, cucumbers, or celery</li>
+          <li>Starchy vegetables listed above in the Breads/Starches food group</li>
+        </ul>
+        <p><strong>You may NOT want to eat the following foods.</strong></p>
+        <ul>
+          <li>Broccoli</li>
+          <li>Cabbage</li>
+          <li>Cauliflower</li>
+          <li>Garlic</li>
+          <li>Onions</li>
+        </ul>
+        
+        <h2>FRUITS:</h2>
+        <p><strong>You may want to eat the following foods.</strong></p>
+        <ul>
+          <li>Applesauce</li>
+          <li>Canned fruit</li>
+          <li>Dried fruit</li>
+          <li>Fresh apples</li>
+          <li>Jam or jelly on breads (for extra calories)</li>
+          <li>Pears</li>
+          <li>Plums</li>
+          <li>Raisins</li>
+          <li>Sips of juices</li>
+        </ul>
+        <p><strong>You may NOT want to eat the following foods.</strong></p>
+        <ul>
+          <li>Bananas</li>
+          <li>Melons</li>
+        </ul>
+        
+        <h2>FATS:</h2>
+        <p><strong>You may want to eat the following foods.</strong></p>
+        <ul>
+          <li>Lowfat cream cheese</li>
+          <li>Lowfat salad dressing</li>
+          <li>Small amounts of butter or margarine</li>
+        </ul>
+        <p><strong>You may NOT want to eat the following foods.</strong></p>
+        <ul>
+            <li>Deep-fried foods, such as french fries</li>
+            <li>Mayonnaise</li>
+            <li>Regular salad dressings</li>
+          </ul>
+          
+          <h2>DESSERTS:</h2>
+          <p><strong>You may want to eat the following foods.</strong></p>
+          <ul>
+            <li>Gelatin, plain, or with canned fruit</li>
+            <li>Ginger snaps or other lowfat cookies</li>
+            <li>Plain cake or cookies</li>
+            <li>Vanilla wafers</li>
+          </ul>
+          <p><strong>You may NOT want to eat the following foods.</strong></p>
+          <ul>
+            <li>Chocolate and other rich cakes</li>
+            <li>Cream pies</li>
+            <li>Ice cream</li>
+            <li>Pastries</li>
+            <li>Rich pudding or custard</li>
+          </ul>
+          
+          <h2>LIQUIDS:</h2>
+          <p><strong>You may want to eat or drink the following things.</strong></p>
+          <ul>
+            <li>Frozen fruit juices</li>
+            <li>Ginger ale</li>
+            <li>Italian ice</li>
+            <li>Lemon-lime soda pop</li>
+            <li>Popsicles™️</li>
+            <li>Sherbet</li>
+            <li>Sips of broth or bouillon</li>
+          </ul>
+          <p><strong>You may NOT want to drink the following liquids.</strong></p>
+          <ul>
+            <li>Coffee or tea</li>
+            <li>Cola</li>
+            <li>Root beer</li>
+          </ul>
+    </div>
+</div>
+
+<script>
+    document.addEventListener('DOMContentLoaded', function() {
+    const diseaseSelect = document.getElementById('disease');
+    const diabetesText = document.getElementById('diabetesText');
+    const hbpText = document.getElementById('hbpText');
+    const gravidarumText = document.getElementById('gravidarumText');
+    const nonetext=document.getElementById('nonetext');
+    const submitButton = document.querySelector('input[type="submit"]');
+    let selectedDisease; // Declare selectedDisease variable outside event listeners
+
+    // Function to show the corresponding medical condition text
+    function showMedicalConditionText(selectedDisease) {
+        // Hide all medical condition texts
+        diabetesText.classList.add('hidden');
+        hbpText.classList.add('hidden');
+        gravidarumText.classList.add('hidden');
+        nonetext.classList.add('hidden');
+        // Show the corresponding medical condition text
+        if (selectedDisease === 'Diabetes') {
+            diabetesText.classList.remove('hidden');
+            
+        } else if (selectedDisease === 'HBP') {
+            hbpText.classList.remove('hidden');
+            
+        } else if (selectedDisease === 'Gravidarum') {
+            gravidarumText.classList.remove('hidden');
+        }
+        else{
+            nonetext.classList.remove('hidden');
+            
+        }
+    }
+
+    diseaseSelect.addEventListener('change', function() {
+        // Update selectedDisease when the dropdown selection changes
+        selectedDisease = this.value;
+        console.log("Selected disease:", selectedDisease);
+    });
+
+    // Prevent form submission and show medical condition text on submit button click
+    submitButton.addEventListener('click', function(event) {
+        event.preventDefault(); // Prevent the default form submission behavior
+
+        // Show the corresponding medical condition text after submitting
+        showMedicalConditionText(selectedDisease);
+    });
+});
+
+</script>
+
+</body>
+</html>
